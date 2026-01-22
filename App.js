@@ -1,10 +1,19 @@
-import {Text, View, } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
-export default
-function App(){
-    return (
-        <View><Text>Hello world Welcome to Learning React native </Text></View>
-        
-    );
+export default function App() {
+  return (
+    <View style = {styles.container}>
+
+      <Text>Hello</Text>
+    </View>
+  );
 }
 
+
+const styles = StyleSheet.create({
+    container : {
+      flex: "center",
+      alignItems : "center",
+      alignContent: "center",
+    }
+});
