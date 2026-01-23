@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 import { View, TextInput, Text, Pressable } from "react-native";
 
+
 export default function TagInput(){
     const [text, setText] = useState('');
     const [tags, setTags] = useState([]);
     
+
     const addTag = () => {
         if(!text.trim()) return;
         setTags([...tags, text]);
