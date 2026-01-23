@@ -1,0 +1,14 @@
+$primary-color: #4f46e5;
+
+.button{
+    background-color: $primary-color;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: darkblue;
+    }
+}
